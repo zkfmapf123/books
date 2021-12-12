@@ -129,6 +129,10 @@
 
     // 이렇게 짜라고
     type OptionValue = typeof INIT_CR;
+
+    // const op : OptionValue = {
+        
+    // }
 }
 
 {
