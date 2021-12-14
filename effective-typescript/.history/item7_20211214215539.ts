@@ -33,12 +33,6 @@
 
     // 합집합
     type PersonType = keyof (Person & LifeSpan);
-    type PType = Person & {_brand: 'sorted'}
-
-    const d : PType = {
-        name : '123',
-        _brand : 'sorted'
-    }
 
     // 합집합을 표현할때는 주로 extends를 사용한다.
     interface PersonSpanType extends Person {
