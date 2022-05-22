@@ -1,0 +1,21 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "- 전형적인 문제들을 푸는데 중점을 둔 일련의 패턴 -> Recipe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "queue-start": "ts-node asyncModule.ts",
+    "cahce-start": "ts-node caching.ts",
+    "cpu-startl": "ts-node cpuBounded.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.8.0",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  }
+}
