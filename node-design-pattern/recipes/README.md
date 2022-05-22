@@ -6,6 +6,3 @@
 
 ## caching.ts
 - caching
-
-## cpuBounded.ts
-- cpu-bounded
