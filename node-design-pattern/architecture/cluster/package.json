@@ -1,0 +1,19 @@
+{
+  "name": "cluster-http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "single-start": "ts-node single-thread.ts",
+    "multi-start": "ts-node multi-process.ts",
+    "exception-start": "ts-node exception-multi-process.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.36",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
+}
