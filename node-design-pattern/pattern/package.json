@@ -1,0 +1,15 @@
+{
+  "name": "pattern",
+  "version": "1.0.0",
+  "description": "### 생성자 디자인 패턴 - Factory - Builder - Public Constructor - SingleTone - Module Wiring",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
