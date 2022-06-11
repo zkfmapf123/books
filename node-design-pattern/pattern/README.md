@@ -1,15 +1,26 @@
 ## Nodejs Deisng Pattern
 
 ### 생성자 디자인 패턴
-- Factory
-- Public Constructor
-- SingleTone
+- [x]Factory
+- [x] Public Constructor
+- [x] SingleTone
 
 ### 구조적 설계 패턴
-- Proxy
+- [x] Proxy
     - Object Composition **
     - Factory Function
     - Proxy
     - Observer Pattern
-- Decorator
-- Adapter
+- [x] Decorator
+    - class 
+    - method
+    - property
+- [ ] Adapter
+
+### 행위 디자인 패턴
+- [ ] Strategy 
+- [ ] State
+- [ ] Template
+- [ ] Iterator
+- [ ] Middleware
+- [ ] Command

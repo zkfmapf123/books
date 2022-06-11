@@ -1,22 +1,26 @@
 /**
- * class 내부에서만 사용
+ * class decorator
+ * method decorator **
+ * property decorator
  */
 
-@ClassDecorator
-class A {
-  private msg: string = "hello world";
+function methodDecorator() {
+  return function (target: any, property: any, descriptor: any) {
+    let originalMethod = descriptor.value;
 
-  constructor() {
-    console.log("hello world");
-  }
+    descriptor.value = function (args: any) {
+      // convert args
+      originalMethod("iam not leedonggyu");
+    };
+  };
+}
 
-  get c(): string {
-    return this.msg;
+class Test {
+  @methodDecorator()
+  test(msg: string) {
+    console.log(msg);
   }
 }
 
-function ClassDecorator(consturctor: typeof A) {
-  console.log("before A");
-}
-
-const a = new A();
+const t = new Test();
+t.test("leedonggyu");
