@@ -28,3 +28,16 @@
 ### Nodejs Multi Process (with cluster module)
 ![screenshot](./public/multi.png)
 - 총 12개 process로 나눠서 부하를 나눠받는다 (cpu수는 컴퓨터사양에 따라 상이함)
+
+## Load Balance
+
+### Nginx
+- 비 차단 I/O 모델을 기반으로 구축된 웹서버, 역방향 프록시 및 로드밸런서
+- <a href="https://github.com/zkfmapf123/nginx-config-practice">nginx config</a>
+
+## Messaging System
+- MicronService의 문제점
+![screenshot](./public/microservice.png)
+- 분산된 시스탬내에서 데이터 처리 및 동기화 문제가 심화됨 -> 오케스트레이션 계층 도입
+- 오케스트레이션 계층 -> 근본적인 해결책이 되지 못함
+- 해당 처리를 위해서 메시징 시스템을 도입 -> 노드 전체에 데이터 및 이벤트 명령으 전파
