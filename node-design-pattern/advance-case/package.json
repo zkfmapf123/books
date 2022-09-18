@@ -1,0 +1,25 @@
+{
+  "name": "advance-case",
+  "version": "1.0.0",
+  "description": "> 비동기적으로 초기화되는 컴포넌트 처리 (case_1)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "case_1_run": "ts-node ./case_1/index.ts",
+    "case_2_run": "nodemon --exec node ./case_2/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.5",
+    "level": "^6.0.1",
+    "subleveldown": "^4.1.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3",
+    "nanoid": "^2.1.11"
+  },
+  "devDependencies": {
+    "@types/subleveldown": "^4.1.1"
+  }
+}
